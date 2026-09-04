@@ -1,0 +1,86 @@
+name: rice_dt
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+
+  # Routing
+  go_router: ^16.0.0
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+
+  # Camera
+  camera: ^0.11.2
+
+  # Gallery
+  image_picker: ^1.2.0
+
+  # Image Processing
+  image: ^4.5.4
+
+  # TensorFlow Lite
+  tflite_flutter: ^0.11.0
+
+  # Local Database
+  sqflite: ^2.4.2
+
+  path: ^1.9.1
+
+  path_provider: ^2.1.5
+
+  # Local Storage
+  shared_preferences: ^2.5.3
+
+  # Permissions
+  permission_handler: ^12.0.1
+
+  # Charts
+  fl_chart: ^1.1.1
+
+  # Fonts
+  google_fonts: ^6.3.0
+
+  # Utilities
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Launcher Icon Generator
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/models/
+    - assets/labels/
+    - assets/icons/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+
+  image_path: "assets/icons/app_icon.png"
+
+  adaptive_icon_background: "#0B5D3A"
+  adaptive_icon_foreground: "assets/icons/app_icon.png"
